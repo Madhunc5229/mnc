@@ -207,7 +207,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 160px;
+   width: 240px;
    height: 320px;
    border-radius: 100%;
 }
@@ -512,7 +512,7 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { padding: 10px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
