@@ -329,6 +329,26 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: cpp 2s ease;
    -webkit-animation: cpp 2s ease;
 }
+.python {
+   width: 90%;
+   -moz-animation: cpp 2s ease;
+   -webkit-animation: cpp 2s ease;
+}
+.ros {
+   width: 80%;
+   -moz-animation: cpp 2s ease;
+   -webkit-animation: cpp 2s ease;
+}
+.opencv {
+   width: 90%;
+   -moz-animation: cpp 2s ease;
+   -webkit-animation: cpp 2s ease;
+}
+.pytorch {
+   width: 70%;
+   -moz-animation: photoshop 2s ease;
+   -webkit-animation: photoshop 2s ease;
+}
 .photoshop {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
