@@ -594,7 +594,7 @@ input[type="checkbox"] { display: inline; }
 --------------------------------------------------------------- */
 .row {
    width: 96%;
-   max-width: 1020px;
+   max-width: 1200px;
    margin: 0 auto;
 }
 /* fixed width for IE8 */
@@ -802,6 +802,23 @@ properly.
 	text-align: center !important;
 }
 
-
-
+.project-grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); /* 4 columns */
+   grid-gap: 20px; /* spacing between projects */
+ }
+ 
+ .project {
+   position: relative;
+ }
+ 
+ .project img {
+   width: 100%; /* make the image fill the project container */
+   height: auto; /* maintain aspect ratio */
+ }
+ 
+ .project h2 {
+   position: center;
+   bottom: 0;
+ }
 
